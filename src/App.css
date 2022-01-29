@@ -1,0 +1,26 @@
+.transition {
+  position: relative;
+}
+
+.exit {
+  position: absolute;
+  /* top, right, bottom, left shorthand */
+  inset: 0;
+  transform: translate3d(-100%, 0, 0);
+  transition: transform 2s ease;
+}
+
+.screen0 {
+  height: 200px;
+  background-color: hotpink;
+}
+
+.screen1 {
+  height: 200px;
+  background-color: mediumslateblue;
+}
+
+.screen2 {
+  height: 200px;
+  background-color: seagreen;
+}
