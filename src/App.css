@@ -1,3 +1,7 @@
+/*
+* The Important Part 
+*/
+
 .transition {
   position: relative;
 }
@@ -10,17 +14,39 @@
   transition: transform 2s ease;
 }
 
-.screen0 {
-  height: 200px;
-  background-color: hotpink;
-}
+/* 
+* Just for decoration
+*/
 
-.screen1 {
-  height: 200px;
-  background-color: mediumslateblue;
-}
-
+.screen0,
+.screen1,
 .screen2 {
   height: 200px;
+  color: white;
+
+  margin-inline: 10px;
+
+  /* center text inside */
+  display: grid;
+  place-items: center;
+}
+
+.screen0 {
+  background-color: hotpink;
+}
+.screen1 {
+  background-color: mediumslateblue;
+}
+.screen2 {
   background-color: seagreen;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding-inline: 8px;
+}
+
+h1 {
+  text-align: center;
 }

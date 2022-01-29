@@ -57,7 +57,7 @@ export function Transition({
               return null
           }
         }
-        // Wrong type, not a ReactElement
+        // Wrong type. Not a ReactElement
         return null
       })}
     </div>
